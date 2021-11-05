@@ -3,6 +3,10 @@ my_list = [ 1, 0, 0, 0, 1, 0, 0, 0, 1, 1 ]
 def my_function(numbers):
     new_list = []
     for numb in numbers:
+        if numb ==1:
+            new_list.append(numb)
+        else:
+            new_list.append('Yahoo')
     #The magic go here:
         
     return new_list

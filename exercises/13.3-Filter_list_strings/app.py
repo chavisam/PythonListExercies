@@ -7,3 +7,9 @@ names = ['Liam','Emma','Noah','Olivia','William','Ava','James','Isabella','Logan
 
 
 #Your code go here:
+def contain_function(name):
+    if name.__contains__('am'):
+        return name
+
+new_list = list(filter(contain_function,names))
+print(new_list)

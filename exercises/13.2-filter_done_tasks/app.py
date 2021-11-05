@@ -12,4 +12,5 @@ tasks = [
 
 
 #Your code go here:
-
+new_list = list(filter(lambda done_task: done_task['done']!=False,tasks))
+print(new_list)
